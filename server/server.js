@@ -15,7 +15,6 @@ const corsOptions = {
 // Use cors middleware
 app.use(cors(corsOptions));
 
-// Use express.json() middleware to parse JSON bodies of requests
 app.use(express.json());
 
 // GET route - Allows to get all the items
