@@ -48,7 +48,7 @@ app.get("/clothes", (req, res) => {
 });
 
 // POST route - Allows to add a new item
-// example: localhost:3000/clothes
+// example:
 /*
   body: {
     "image": "https://your-image-url.com/image.png",
